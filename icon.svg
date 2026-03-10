@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#FCD34D"/>
+    </linearGradient>
+    <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="42" fill="url(#bg)"/>
+  <text x="96" y="138" font-size="110" font-weight="800" text-anchor="middle" font-family="Arial,sans-serif" fill="#ffffff" fill-opacity="0.18" letter-spacing="-8">BF</text>
+  <line x1="32" y1="70" x2="160" y2="70" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="32" y1="100" x2="160" y2="100" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="32" y1="130" x2="160" y2="130" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+  <path d="M32 130 C55 130 60 110 80 95 C100 80 110 105 130 75 C145 55 158 50 160 48 L160 145 L32 145 Z" fill="url(#fill)"/>
+  <path d="M32 130 C55 130 60 110 80 95 C100 80 110 105 130 75 C145 55 158 50 160 48" fill="none" stroke="url(#line)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="160" cy="48" r="7" fill="#FCD34D"/>
+  <circle cx="160" cy="48" r="3.5" fill="#fff"/>
+  <circle cx="80" cy="95" r="4" fill="#6366F1" fill-opacity="0.8"/>
+  <circle cx="130" cy="75" r="4" fill="#6366F1" fill-opacity="0.8"/>
+</svg>
